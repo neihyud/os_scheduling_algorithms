@@ -20,6 +20,7 @@ body {
     position: fixed;
     padding: 15px;
     border-radius: 4px;
+    font-size: 15px;
 }
 
 #nav li {
@@ -28,8 +29,12 @@ body {
     cursor: pointer;
 }
 
-#nav li:hover {
+#nav li.active {
     background-color: #fff;
+}
+
+#nav li:hover {
+    background-color: #ddd;
 }
 
 table {
@@ -87,4 +92,8 @@ button:hover {
 
 #body::-webkit-scrollbar {
     display: none;
+}
+
+#note {
+    font-size: 12px;
 }

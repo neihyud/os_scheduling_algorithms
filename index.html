@@ -14,12 +14,21 @@
     </head>
     <body>
         <div id="nav">
-            <li style="font-size: 15px;">First Come First Server</li>
-            <li style="font-size: 15px;">Shortest Job First</li>
-            <li style="font-size: 15px;">Round-robin</li>
+            <li class="active">First Come First Server</li>
+            <li class="">Shortest Job First</li>
+            <li class="">Round-robin</li>
+            <hr>
+            
+            <div id="note">
+                <p>completion_time = comp_time</p>
+                <p>Turn Around Time = TAT</p>
+                <p><b>TAT</b> = comp_time – arrival_time</p>
+                <p><b>Waiting Time</b> = TAT – burst_time.</p>
+            </div>
         </div>
+
         <div id="body">
-            <p style="color: #51adaa">Nhớ sắp xếp theo đúng thứ tự chạy process</p>
+            <p style="color: #51adaa">Nhớ sắp xếp theo đúng thứ tự chạy process không phải thứ tự đặt process</p>
             <form action="">
                 <div>
                     <label for="process">Process</label>
